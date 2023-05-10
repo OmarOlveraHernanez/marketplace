@@ -1,0 +1,15 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "marketplace",
+    "password": "marketplace01",
+    "database": "marketplace",
+    "synchronize": false,
+    "entities": ["src/**/*.entity.ts"],
+    "migrationsTableName": "migrations",
+    "migrations": ["src/database/migrations/*.ts"],
+    "cli":{
+        "migrationsDir":"src/database/migrations"
+    }
+  }
